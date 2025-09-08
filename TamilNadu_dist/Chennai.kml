@@ -3,19 +3,18 @@ v  <?xml version="1.0" encoding="UTF-8"?>
 <Document>
   <name>Chennai District</name>
 
-  
   <Style id="customRedStyle">
     <LineStyle>
-      <color>ff0000ff</color> <!-- Opaque Red Border -->
-      <width>2.5</width>
+      <color>ff0000ff</color> <!-- Red Border -->
+      <width>3</width>
     </LineStyle>
     <PolyStyle>
+      <color>330000ff</color> <!-- Transparent red fill -->
       <fill>1</fill>
-      <color>330000ff</color> <!-- Semi-Transparent Red Fill -->
+      <outline>1</outline>
     </PolyStyle>
   </Style>
 
-  <!-- This is the Placemark for Chennai, using your custom style -->
   <Placemark>
     <name>Chennai</name>
     <styleUrl>#customRedStyle</styleUrl>
